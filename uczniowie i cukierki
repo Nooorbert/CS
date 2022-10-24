@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int x, y, z, d; //x - liczba uczniow 
+int main()
+{
+    cout << "How many people are in your class?: ";
+    cin >> x;
+    
+    cout << "Ho many candy did your mum buy?: ";
+    cin >> y;
+    
+    z = y/(x-1);
+    d = y - (x-1)*z;
+    
+    cout << "Number of candy every person should get : " << z << endl <<"Number of candy you have for yourself :) " << d;
+    return 0;
+}
+
